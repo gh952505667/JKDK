@@ -36,8 +36,8 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: 每日健康上报 (${{env.REPORT_DATE}})
          # html_body: file://result.html
-          body: 今日健康打卡成功！
+          body: 申焘瑀今日健康打卡成功！
           to: ${{secrets.RECEIVE_MAIL}}
           from: 郑州大学数据中台
           convert_markdown: true
-          content_type: txt/html 
+          content_type: txt/html
